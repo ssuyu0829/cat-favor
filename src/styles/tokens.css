@@ -1,0 +1,82 @@
+/* ── Cat Favor 設計 token ────────────────────────────────
+   色系走低彩度奶油可愛風：想換整體氣氛只要改這個檔案。
+   ──────────────────────────────────────────────────────── */
+
+:root {
+  /* 表面與文字 */
+  --bg: #faf6f0; /* 奶油米白 */
+  --surface: #fffdfa; /* 卡片 */
+  --surface-2: #f3ece3; /* 次級底：輸入框、chip */
+  --text: #4a3f3a; /* 可可棕，不用純黑 */
+  --text-soft: #6d5f58;
+  --muted: #9c8e86;
+  --line: #e8ddd0; /* 燕麥色分隔線 */
+
+  /* 主色 */
+  --accent: #d9b0a7; /* 霧粉 — 主按鈕 */
+  --accent-strong: #bd8d83; /* 霧粉深 — 文字/圖示在淺底上 */
+  --accent-soft: #f6e9e5; /* 霧粉極淺 — 選中底色 */
+  --sage: #a8b5a0; /* 鼠尾草綠 — 加分 */
+  --sage-soft: #eaefe6;
+  --warn: #c9836f; /* 磚紅 — 爭議成分（不刺眼） */
+  --warn-soft: #f7e7e1;
+  --amber: #cc9a53; /* 蜂蜜 — 注意 / 星星 */
+  --amber-soft: #f8eedc;
+  --taupe: #c3b2a5; /* 圖表用的中性色（灰分） */
+
+  /* 五隻貓代表色 */
+  --cat-jiao: #b5836a; /* 焦焦 · 焦糖棕 */
+  --cat-zhao: #d0a161; /* 朝朝 · 晨曦黃 */
+  --cat-mu: #9a92b6; /* 暮暮 · 暮色紫 */
+  --cat-yao: #c08a97; /* 咬咬 · 莓果粉 */
+  --cat-xiao: #85a99f; /* 曉曉 · 曉霧青 */
+
+  /* 造型 */
+  --r-xl: 26px;
+  --r-lg: 20px;
+  --r-md: 14px;
+  --r-sm: 10px;
+  --r-pill: 999px;
+
+  --shadow-sm: 0 1px 2px rgba(74, 63, 58, 0.05), 0 3px 10px rgba(74, 63, 58, 0.045);
+  --shadow-md: 0 2px 6px rgba(74, 63, 58, 0.07), 0 10px 24px rgba(74, 63, 58, 0.07);
+  --shadow-up: 0 -2px 16px rgba(74, 63, 58, 0.07);
+
+  /* 版面 */
+  --tabbar-h: 62px;
+  --page-pad: 16px;
+  --max-w: 560px;
+
+  /* 圓體字：iPhone 上直接吃到 SF Pro Rounded + 蘋方，不用連外部字型 */
+  --font: ui-rounded, "SF Pro Rounded", "Hiragino Maru Gothic ProN",
+    "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", system-ui, sans-serif;
+
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #211c1a;
+    --surface: #2b2523;
+    --surface-2: #372f2c;
+    --text: #ece2da;
+    --text-soft: #c9bcb4;
+    --muted: #a09088;
+    --line: #403733;
+
+    --accent: #c99a92;
+    --accent-strong: #dcb0a7;
+    --accent-soft: #3a2f2c;
+    --sage: #93a38b;
+    --sage-soft: #2e352c;
+    --warn: #d1907c;
+    --warn-soft: #3d2c26;
+    --amber: #d6a65c;
+    --amber-soft: #3a2f21;
+    --taupe: #7b6a60;
+
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.25), 0 3px 10px rgba(0, 0, 0, 0.2);
+    --shadow-md: 0 2px 6px rgba(0, 0, 0, 0.3), 0 10px 24px rgba(0, 0, 0, 0.28);
+    --shadow-up: 0 -2px 16px rgba(0, 0, 0, 0.3);
+  }
+}
