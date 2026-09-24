@@ -1,5 +1,7 @@
 # Cat Favor 🐈
 
+[![CI](https://github.com/ssuyu0829/cat-favor/actions/workflows/ci.yml/badge.svg)](https://github.com/ssuyu0829/cat-favor/actions/workflows/ci.yml)
+
 手機上用的貓罐頭紀錄網站：拍成分標籤 → AI 自動抓成分與保證分析值 → 分析營養 →
 記錄焦焦、朝朝、暮暮、咬咬、曉曉五隻貓的喜好度。
 
